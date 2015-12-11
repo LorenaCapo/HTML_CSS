@@ -1,0 +1,294 @@
+html {
+	font-size: 62.5%; 
+	height: 100%;
+    }
+
+/******Reset css******/
+html {margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	vertical-align: baseline;}
+
+body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/******End reset******/
+
+/******General******/
+
+body {
+	background-image: url("../images/bg.png");
+	background-repeat: repeat;
+	background-size: auto auto;
+	margin: 0 auto;
+}
+
+@font-face {
+	font-family: bebasneue;
+	src: url("../fonts/bebasneue-webfont.ttf");
+}
+
+/******End General******/
+
+/******Header******/
+
+hgroup {
+	width: 35%;
+	float: left;
+	margin: 2rem 14rem 2rem 0;	
+}
+
+h1 {
+	font-family: bebasneue, serif;
+	font-size: 4rem;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+header h2 {
+	margin-top: -0.5rem;
+	color: #3d667e;
+	text-align: center;
+	font-size: 1rem;
+	font-family: Arial;
+}
+
+header h2:nth-of-type(2){
+	font-family: bebasneue, serif;
+}
+
+
+nav {
+	float: left;
+	margin: 4rem 2rem;
+}
+
+ul{
+	list-style: none;
+
+}
+
+header nav ul li {
+	float: left;
+	margin-right: 2rem;
+	font-size: 1rem;
+	font-family: Arial;
+}
+
+a {
+	text-decoration: none;
+	color: #3d667e;
+	font-weight: bold;
+}
+
+div#imageninicial {
+	clear: both;
+	background-image: url("../images/img-banner.png");
+	background-repeat: no-repeat;
+	width: 1300px;
+	height: 320px;
+	position: relative;
+	margin: 0 2rem;
+}
+
+div#imageninicial hgroup {
+	position: absolute;
+	padding: 1.2rem 0;
+	left: 60%;
+	top: 56%;
+	width: 40%;	
+	height: 14%;
+	color: #fff;
+	background-color: rgba(0,0,0,0.7);
+	font-family: bebasneue, serif;
+	text-align: center;
+}
+
+div#imageninicial hgroup h2 {
+	font-family: bebasneue, serif;
+	font-size: 2rem;
+}
+/******End Header******/
+
+/******Article******/
+
+article {
+	width: 58%;
+	float: left;
+	margin: 2rem;
+}
+
+article h3 {
+	font-family: bebasneue;
+	font-size: 2rem;
+	text-transform: uppercase;
+}
+
+article p {
+	margin: 0.8rem 0; 
+	font-family: Arial;
+}
+
+article p:nth-of-type(2) {
+	background-image: url("../images/img-main.png");
+	background-repeat: no-repeat;
+	height: 300px;
+}
+
+article p a {
+	color: #000;
+}
+article p a:hover {
+	color: #3d667e;
+	border-bottom: 0.1rem dashed #3d667e;
+}
+/******End Article******/
+
+/******Aside******/
+
+aside {
+	width: 21.5rem;
+	float: left;
+	border: 0.1rem groove #919FA3;
+	margin: 2rem 0;
+}
+
+aside h3 {
+	font-family: bebasneue;
+	font-size: 1.6rem;
+	text-align: center;
+	margin: 0.4rem 0 ;
+}
+
+aside ul li {
+	background-color: #eee;
+	height: 1.4rem;
+	margin: 0.3rem 0.5rem;
+}
+
+aside ul li:hover {
+	background-color: #213744;
+}
+
+aside ul li a {
+	margin-left: 1rem;
+	color: #3d667e;
+}
+
+aside ul li a:hover {
+	color: #fff;
+}
+
+div#equipo ul li {
+	height: 3.6rem;
+}
+
+div#equipo ul li:nth-of-type(1) {
+	background-image: url("../images/img-jason.jpeg");
+	background-repeat: no-repeat;
+	background-position: 0.2rem;
+}
+div#equipo ul li:nth-of-type(2) {
+	background-image: url("../images/img-nick.jpeg");
+	background-repeat: no-repeat;
+	background-position: 0.2rem;
+}
+div#equipo ul li:nth-of-type(3) {
+	background-image: url("../images/img-tim.jpeg");
+	background-repeat: no-repeat;
+	background-position: 0.2rem;
+}
+div#equipo ul li:nth-of-type(4) {
+	background-image: url("../images/img-drew.png");
+	background-repeat: no-repeat;
+	background-position: 0.2rem;
+}
+div#equipo ul li:nth-of-type(5) {
+	background-image: url("../images/img-justin.jpeg");
+	background-repeat: no-repeat;
+	background-position: 0.2rem;
+}
+
+div#equipo ul li a {
+	margin-left: 4rem;
+}
+
+
+/******End Aside******/
+
+/******Footer******/
+footer {
+	clear: both;
+}
+footer nav {
+	background-color: #3d667e;
+	width: 1300px;
+	height: 2rem;
+	border-radius: 0.5rem;
+}
+
+footer nav ul {
+	width: 800px;
+	margin: 0 auto;
+}
+
+footer nav ul li {
+	float: left;
+	margin: 0.5rem 2rem 0 2rem ;
+	font-size: 1rem;
+	text-align: center;
+}
+
+footer nav ul li a {
+	color: #fff;
+}
+
+footer nav ul li a:hover {
+	color: #3d667e;
+	background-color: #fff;
+	border-radius: 0.2rem;
+}
+
+
+
